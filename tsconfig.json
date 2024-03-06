@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        // "baseUrl": "./",
+        // "paths": {
+        //     "crypto": [
+        //         "node_modules/crypto"
+        //     ]
+        // }
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

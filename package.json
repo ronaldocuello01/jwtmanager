@@ -1,0 +1,30 @@
+{
+  "name": "wingo_jwt_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build-prod": "webpack --mode production",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "8.5.1",
+    "node-polyfill-webpack-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
